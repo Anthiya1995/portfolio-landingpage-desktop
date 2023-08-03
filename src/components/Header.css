@@ -1,0 +1,150 @@
+:root {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  margin-bottom: 3rem;
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+#banner {
+  height: 25%;
+}
+
+.header-text a {
+  background: linear-gradient(to right, #4581f6, #ba42c0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.125px;
+}
+
+#banner button {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.375px;
+  border-radius: 10px;
+  background: #608af5;
+  width: 200px;
+  height: 60px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.menu-list {
+  display: flex;
+  padding: 10px 18px;
+  align-items: center;
+  gap: 120px;
+  color: #212121;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.375px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.banner-content h2 {
+  color: #002265;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.175px;
+}
+
+.banner-content p {
+  color: #082032;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.345px;
+  width: 1100px;
+}
+
+.banner-text {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.introduction {
+  flex-shrink: 0;
+  color: #002265;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+.hero-image {
+  width: 650px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-content .dynamic-text {
+  color: #ba42c0;
+  font-size: 80px;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-right: 10px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(22), cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+a {
+  text-decoration: none !important;
+  color: #212121;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.375px;
+}

@@ -1,0 +1,44 @@
+.passions {
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.passions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.passions-head {
+  color: #14279b;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 1.925px;
+}
+
+.passions-head .bold {
+  color: #002265;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.925px;
+}
+
+.passions-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 55px;
+}
+.passions-list img {
+  width: 590px;
+  height: auto;
+  object-fit: cover;
+}

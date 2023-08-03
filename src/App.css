@@ -1,0 +1,23 @@
+* {
+  outline: 1px solid red;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+#banner,
+#passions,
+#portfolio {
+  height: 700px;
+  margin-bottom: 200px;
+}
+
+#contact {
+  height: 700px;
+}

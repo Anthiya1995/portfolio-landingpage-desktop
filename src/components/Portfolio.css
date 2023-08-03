@@ -1,0 +1,43 @@
+.portfolio {
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.portfolio-head {
+  color: #14279b;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 6.475px;
+}
+
+.portfolio-head .bold {
+  color: #002265;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 6.475px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 55px;
+}
+.portfolio-list img {
+  width: 590px;
+  height: auto;
+  object-fit: cover;
+}
