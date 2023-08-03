@@ -12,11 +12,15 @@ body,
 }
 
 #banner,
-#passions,
-#portfolio {
+{
   height: 700px;
-  margin-bottom: 200px;
+  margin-bottom: 60px;
 }
+
+#passions, #portfolio {
+  margin-bottom: 150px;
+}
+
 
 #contact {
   height: 700px;

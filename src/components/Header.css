@@ -1,5 +1,5 @@
 :root {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -18,7 +18,7 @@ header {
   background-clip: text;
   color: transparent;
   text-align: center;
-  font-size: 35px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -28,15 +28,15 @@ header {
 #banner button {
   color: #fff;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 1.375px;
   border-radius: 10px;
   background: #608af5;
-  width: 200px;
-  height: 60px;
+  width: 150px;
+  height: 45px;
 }
 
 .nav-bar {
@@ -50,20 +50,14 @@ header {
   display: flex;
   padding: 10px 18px;
   align-items: center;
-  gap: 120px;
+  gap: 60px;
   color: #212121;
-  text-align: center;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 1.375px;
 }
 
 .banner-content {
   display: flex;
   justify-content: space-between;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .banner-content h2 {
@@ -79,12 +73,12 @@ header {
 .banner-content p {
   color: #082032;
   font-family: Poppins;
-  font-size: 23px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.345px;
-  width: 1100px;
+  width: 700px;
 }
 
 .banner-text {
@@ -95,7 +89,7 @@ header {
 .introduction {
   flex-shrink: 0;
   color: #002265;
-  font-size: 80px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -113,7 +107,7 @@ header {
 
 .banner-content .dynamic-text {
   color: #ba42c0;
-  font-size: 80px;
+  font-size: 50px;
   letter-spacing: 1px;
   font-style: normal;
   font-weight: 600;
@@ -142,7 +136,7 @@ a {
   color: #212121;
   text-align: center;
   font-family: Poppins;
-  font-size: 25px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
